@@ -37,8 +37,6 @@ GOALS FOR VERSION 2
 * Investigate changing the scoring values
 * Style the "Start/Pause" button
 
-END
----
 
 
 
