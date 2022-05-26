@@ -1,0 +1,61 @@
+
+.container {
+  display: flex;
+  /*border-style: solid;*/
+  margin: 50px 30px;
+}
+
+
+.grid {
+  width: 200px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ADD8E6;
+  border: 4mm ridge rgba(179, 220, 50, .6);
+}
+
+.grid div {
+  height: 20px;
+  width: 20px;
+}
+
+.tetromino {
+  background-color: blue;
+
+}
+
+.mini-grid {
+  margin-left: 50px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ADD8E6;
+  border: 4mm ridge rgba(179, 220, 50, .6);
+}
+
+.mini-grid div {
+  height: 20px;
+  width: 20px;
+}
+
+.taken { /*this affects how the tetrominos look once they've landed*/
+  opacity: .75;
+}
+
+
+
+#score { /*This only affects the score itself, not the "Score:"*/
+  margin-top: 10px;
+  color: black;
+  padding-left: 5px;
+}
+
+#scoreDisplay {
+  color: blue; /* this is doing nothing.. figure this one out*/
+}
+
+#start-button {
+  color: black; /* this changes the text color, but how the fuck do I get the button itself to change??*/
+}
